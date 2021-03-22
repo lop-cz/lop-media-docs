@@ -1,0 +1,36 @@
+/* dashboard widget */
+#lop_dashboard_recent_docs ul {
+	clear: both;
+	margin-bottom: 0;
+}
+#lop_dashboard_recent_docs li {
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 3px;
+	margin-bottom: 6px;
+}
+#lop_dashboard_recent_docs li img {
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 1em;
+}
+#lop_dashboard_recent_docs li .meta {
+	display: block;
+	color: #777;
+}
+#lop_dashboard_recent_docs .view-all {
+	margin: 0;
+	text-align: right;
+}
+
+/* dashboard subpage table */
+.docs.fixed .column-icon {
+	width: 36px;
+	text-align: right;
+}
+.docs.fixed .column-size {
+	width: 10%;
+}
